@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="12px" height="12px" viewBox="0 0 12 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 58 (84663) - https://sketch.com -->
+    <title>clock-circular-outline</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Publisher-Saas-Tool---DESIGN" transform="translate(-790.000000, -663.000000)" fill="#FFFFFF" fill-rule="nonzero">
+            <g id="Select-Insert-Type" transform="translate(134.000000, 489.000000)">
+                <g id="Advanced-template" transform="translate(481.000000, 53.000000)">
+                    <g id="Bubble" transform="translate(163.000000, 114.000000)">
+                        <g id="clock-circular-outline" transform="translate(12.000000, 7.000000)">
+                            <path d="M5.8296,0 C2.61516,0 0,2.61516 0,5.8296 C0,9.04404 2.61516,11.6592 5.8296,11.6592 C9.04404,11.6592 11.6592,9.04404 11.6592,5.8296 C11.6592,2.61516 9.04404,0 5.8296,0 Z M5.8296,10.41876 C3.29916,10.41876 1.24032,8.36016 1.24032,5.8296 C1.24032,3.29904 3.29916,1.24044 5.8296,1.24044 C8.36004,1.24044 10.41888,3.29904 10.41888,5.8296 C10.41888,8.36016 8.36004,10.41876 5.8296,10.41876 Z" id="Shape"></path>
+                            <path d="M8.86776,5.6496 L6.24792,5.6496 L6.24792,2.4996 C6.24792,2.23452 6.033,2.0196 5.76792,2.0196 C5.50284,2.0196 5.28792,2.23452 5.28792,2.4996 L5.28792,6.1296 C5.28792,6.39468 5.50284,6.6096 5.76792,6.6096 L8.86776,6.6096 C9.13284,6.6096 9.34776,6.39468 9.34776,6.1296 C9.34776,5.86452 9.13284,5.6496 8.86776,5.6496 Z" id="Path"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

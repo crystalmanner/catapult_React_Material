@@ -1,0 +1,14 @@
+<svg width="526px" height="232px" viewBox="0 0 526 232" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Campaigns---Insights" transform="translate(-878.000000, -548.000000)" stroke="#979797">
+            <g id="Group-2" transform="translate(879.000000, 549.000000)">
+                <rect id="Rectangle" fill="#FFFFFF" x="0" y="0" width="524" height="230"></rect>
+                <line x1="68.5" y1="187.5" x2="139.5" y2="127.5" id="Line-4" stroke-linecap="square"></line>
+                <line x1="157.5" y1="137.5" x2="189.5" y2="175.5" id="Line-5" stroke-linecap="square"></line>
+                <line x1="195.5" y1="156.5" x2="306.5" y2="63.5" id="Line-6" stroke-linecap="square"></line>
+                <line x1="337.5" y1="77.5" x2="411.5" y2="157.5" id="Line-7" stroke-linecap="square"></line>
+                <line x1="428.5" y1="144.5" x2="460.5" y2="24.5" id="Line-8" stroke-linecap="square"></line>
+            </g>
+        </g>
+    </g>
+</svg>

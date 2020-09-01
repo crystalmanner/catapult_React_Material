@@ -1,0 +1,125 @@
+@import "src/styles/global.scss"
+
+.reviewBody
+  position: relative
+  min-height: 100%
+  width: 100%
+  padding: 0 rem(50)
+  margin-left: auto
+  margin-right: auto
+  background: #F9F9F9
+
+.pageText
+  color: $primaryColor
+  font-size: rem(20)
+  font-weight: bold
+  padding: rem(25) 0
+
+.reviewStyleWrapper
+  font-family: lato, sans-serif
+  letter-spacing: 0.2px
+  font-weight: 300
+  color: black !important
+
+//Cards
+.reviewCard
+  padding: 0 rem(40)
+  border: 1px solid rgba(103, 58, 183, 0.20)
+  background: white
+  border-radius: rem(5)
+
+.reviewCardLeft
+  margin-right: rem(40)
+  +media-breakpoint-down(md)
+    margin-bottom: rem(25) !important
+    margin-right: 0
+
+.reviewCardRight
+  padding: 0 rem(25)
+
+.reviewCardBottom
+  margin-bottom: rem(137)
+
+.reviewCardBottomRight
+  margin-top: rem(25)
+
+//Card Content
+.reviewHeaderText
+  color: $primaryColor
+  font-size: rem(12)
+  font-weight: 900
+  margin: rem(30) 0
+
+.reviewHeaderSubText
+  color: $primaryColor
+  font-size: rem(14)
+  padding-left: rem(16)
+  margin-bottom: rem(15)
+
+.reviewHeaderSubTextIndented
+  padding-left: rem(34)
+  font-size: 0.875rem
+  font-weight: 300
+  line-height: 1.45
+  margin: 0 0 rem(30) 0
+  text-transform: lowercase
+
+.reviewBottomBorder
+  border-bottom: 1px solid rgba(214, 214, 214, 0.5)
+  align-self: center
+  margin: 0 rem(-15)
+
+.reviewDarkText
+  font-weight: normal
+  color: #2B2B2B
+  margin: rem(30) 0
+
+.reviewLightText
+  font-size: 0.625rem
+  color: #707070
+  margin-top: rem(9)
+
+.reviewYMargin
+  margin: rem(30) 0
+
+.reviewYMarginBottom
+  margin: 0 0 rem(30) 0
+
+.reviewYMarginResponsive
+  margin: rem(26) 0
+  +media-breakpoint-down(lg)
+    margin: rem(20) 0
+  +media-breakpoint-down(md)
+    margin: rem(10) 0
+
+.reviewMeshButton
+  background-color: $primaryColor
+  border-radius: 5px
+  box-shadow: 0 0px 0px 0px !important
+  color: white
+  font-size: 0.875rem
+  font-weight: 700
+  height: 30px
+  padding: 8px 16px 4px
+  width: 56px
+  text-transform: none !important
+  font-family: Lato-Bold
+  font-size: rem(12)
+  &:active, &:hover
+    background-color: rgba(#673ab7, 0.85)
+
+.reviewPlayIcon
+  +media-breakpoint-up(lg)
+    margin: rem(30) 0 rem(15) 0
+
+.reviewSocialButton
+  width: 100%
+  margin: 0 0 rem(30) 0
+
+.reviewCatapultLogo
+  width: 69px
+  height: 61px
+
+// Custom Measurements
+.pt-2px
+  padding-top: rem(2)

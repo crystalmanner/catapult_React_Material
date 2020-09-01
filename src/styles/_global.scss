@@ -1,0 +1,29 @@
+@import '~bootstrap/scss/bootstrap.scss';
+
+// Function to convert px to em
+$browser-context: 16; // Body font size
+
+@function rem($pixels, $context: $browser-context) {
+  @return #{$pixels/$context}rem;
+}
+
+//Fonts
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap');
+
+//Colors
+$primaryColor: rgba(103, 58, 183, 1);
+$orangePrimary: #e68159;
+$yellowPrimary: #ffcb37;
+$yellowSecondary: #e3ce4a;
+$greenPrimary: #65c979;
+$redPrimary: #f06c6c;
+$redSecondary: #ba4444;
+$purpleSecondary: #9479c3;
+$purpleThree: #e2daf0;
+$greyPrimary: #a8a8a8;
+$greySecondary: #e3e3e3;
+$greyThree: rgba(24, 30, 34, 0.35);
+$primaryBtnColor: #693bb8;
+$primaryActiveBtnColor: #3A2B73;
+$secondaryBtnColor: #3a61b7;
+$secondaryActiveBtnColor: #024288;

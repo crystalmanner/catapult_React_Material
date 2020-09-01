@@ -1,0 +1,18 @@
+<svg width="167px" height="42px" viewBox="0 0 167 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Step-4---Review" transform="translate(-724.000000, -628.000000)">
+            <rect fill="#F2F2F2" x="0" y="0" width="1440" height="880"></rect>
+            <g id="YouTube---Push" transform="translate(725.000000, 628.000000)">
+                <rect id="Rectangle-112" fill="#282828" fill-rule="evenodd" x="0" y="0" width="164.8" height="40" rx="4"></rect>
+                <text id="Push-to-YouTube" font-family="Helvetica" font-size="11.2" font-weight="normal" fill="#FFFFFF">
+                    <tspan x="59.1433594" y="23.8">Push to YouTube</tspan>
+                </text>
+                <line x1="38" y1="0.4" x2="38" y2="39.6" id="Line" stroke-opacity="0.215854458" stroke="#FFFFFF" stroke-width="0.8" stroke-linecap="square"></line>
+                <g id="youtube" stroke-width="1" fill-rule="evenodd" transform="translate(9.600000, 12.800000)">
+                    <path d="M18.8044131,2.12805649 C18.5830762,1.29595083 17.9345926,0.640047083 17.1122327,0.415978739 C15.6097488,0 9.59981317,0 9.59981317,0 C9.59981317,0 3.59002397,0 2.08754006,0.400122042 C1.28100046,0.624042201 0.616696607,1.29609901 0.395359675,2.12805649 C0,3.64792747 0,6.80000002 0,6.80000002 C0,6.80000002 0,9.96792923 0.395359675,11.4719435 C0.616843119,12.303901 1.26518022,12.9599529 2.08768654,13.1840213 C3.60584422,13.6 9.59995964,13.6 9.59995964,13.6 C9.59995964,13.6 15.6097488,13.6 17.1122327,13.199878 C17.9347391,12.9759578 18.5830762,12.3199059 18.8045596,11.4879484 C19.2,9.96792923 19.2,6.81600486 19.2,6.81600486 C19.2,6.81600486 19.2157395,3.64792747 18.8044131,2.12805649 Z" id="Path" fill="#FF0000" fill-rule="nonzero"></path>
+                    <polygon id="Path" fill="#FFFFFF" fill-rule="nonzero" points="8 9.6 12.8 6.80000002 8 4"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

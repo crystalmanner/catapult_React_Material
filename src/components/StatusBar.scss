@@ -1,0 +1,53 @@
+
+  .stepNo {
+    font-size: 20px;
+    font-weight: 600;
+    color: #181e22;
+    position: relative;
+    width: 100px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .selectBtn {
+      display: none;
+      position: absolute;
+      top: -20px;
+      left: calc(50% - 50px);
+      z-index: 5;
+      height: 40px;
+      width: 100px;
+      font-weight: 400;
+    };
+
+    .curPage {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 4px;
+      font-size: 14px;
+      position: absolute;
+      top: -20px;
+      left: calc(50% - 50px);
+      z-index: 5;
+      height: 40px;
+      width: 100px;
+      color: white;
+      font-weight: 400;
+      background: #673ab7;
+      box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.2), 0px 2px 2px 0px rgba(0,0,0,0.14), 0px 3px 1px -2px rgba(0,0,0,0.12);
+
+    };
+
+    &:hover {
+      .selectBtn {
+        display: inline-flex;
+      }
+    }
+    .show {
+      display: inline-flex;
+    }
+  };
+  .active {
+    color: green;
+  }

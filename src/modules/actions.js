@@ -1,0 +1,32 @@
+export const ROUTER_PUSH = 'ROUTER_PUSH';
+
+export const LOGIN = 'LOGIN';
+export const LOAD_USER = 'LOAD_USER';
+export const CHANGE_PASSWORD = 'CHANGE_PASSWORD';
+export const UPDATE_USER = 'UPDATE_USER';
+export const UPLOAD_LOGO = 'UPLOAD_LOGO';
+
+export const LOAD_MRSSES = 'LOAD_MRSSES';
+export const LOAD_MRSS = 'LOAD_MRSS';
+export const LOAD_MORE_MRSSES = 'LOAD_MORE_MRSSES';
+
+export const SET_VIDEO = 'SET_VIDEO';
+export const SET_BRAND_INFO = 'SET_BRAND_INFO';
+export const SET_TEMPLATE = 'SET_TEMPLATE';
+export const UPLOAD_VIDEO = 'UPLOAD_VIDEO';
+
+export const GET_CAMPAIGNS = 'GET_CAMPAIGNS';
+export const SET_CAMPAIGN = 'SET_CAMPAIGN';
+export const CREATE_CAMPAIGN = 'CREATE_CAMPAIGN';
+export const UPDATE_CAMPAIGN = 'UPDATE_CAMPAIGN';
+export const UPDATE_CAMPAIGN_LOGO = 'UPDATE_CAMPAIGN_LOGO';
+export const GET_CAMPAIGN_BY_ID = 'GET_CAMPAIGN_BY_ID';
+
+export const GET_LIVEREADS = 'GET_LIVEREADS';
+
+export const GET_TEMPLATES = 'GET_TEMPLATES';
+
+export const SUBMIT_VIDEO = 'SUBMIT_VIDEO';
+
+export const GET_VIDEOS_BY_CAMP_ID = 'GET_VIDEOS_BY_CAMP_ID';
+export const DOWNLOAD_VIDEO = 'DOWNLOAD_VIDEO';

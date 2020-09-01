@@ -1,0 +1,181 @@
+@font-face {
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 300;
+  src: url("./fonts/ProximaNova-Light.otf");
+}
+
+@font-face {
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 400;
+  src: url("./fonts/ProximaNova-Regular.otf");
+}
+
+@font-face {
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 500;
+  src: url("./fonts/ProximaNova-Semibold.otf");
+}
+
+@font-face {
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 600;
+  src: url("./fonts/ProximaNova-Bold.otf");
+}
+
+@font-face {
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 700;
+  src: url("./fonts/ProximaNova-Extrabold.otf");
+}
+
+@font-face {
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 800;
+  src: url("./fonts/ProximaNova-Black.otf");
+}
+
+@font-face {
+  font-family: "Lato-Light";
+  font-style: normal;
+  font-weight: 300;
+  src: url("./fonts/Lato-Light.woff");
+}
+
+@font-face {
+  font-family: "Lato-Regular";
+  font-style: normal;
+  font-weight: 400;
+  src: url("./fonts/Lato-Regular.woff");
+}
+
+@font-face {
+  font-family: "Lato-Medium";
+  font-style: normal;
+  font-weight: 500;
+  src: url("./fonts/Lato-Medium.woff");
+}
+
+@font-face {
+  font-family: "Lato-Semibold";
+  font-style: normal;
+  font-weight: 600;
+  src: url("./fonts/Lato-Semibold.woff");
+}
+
+@font-face {
+  font-family: "Lato-Bold";
+  font-style: normal;
+  font-weight: 700;
+  src: url("./fonts/Lato-Bold.woff");
+}
+
+@font-face {
+  font-family: "Lato-Heavy";
+  font-style: normal;
+  font-weight: 800;
+  src: url("./fonts/Lato-Heavy.woff");
+}
+
+@font-face {
+  font-family: "Lato-Black";
+  font-style: normal;
+  font-weight: 900;
+  src: url("./fonts/Lato-Black.woff");
+}
+
+.MuiExpansionPanel-root.Mui-expanded {
+  margin-bottom: 0 !important;
+}
+
+input[type="checkbox"].switch  {
+	position: absolute;
+	opacity: 0;
+}
+
+input[type="checkbox"].switch + div {
+	vertical-align: middle;
+	width: 40px;
+	height: 20px;
+	border-radius: 999px;
+	background-color: #e3e3e3;
+	-webkit-transition-duration: .4s;
+	transition-duration: .4s;
+	-webkit-transition-property: background-color, box-shadow;
+	transition-property: background-color, box-shadow;
+  cursor: pointer;
+  position: relative;
+}
+
+input[type="checkbox"].switch + div span {
+  position: absolute;
+  top: calc(50% - 8px);
+  font-size: 12px;
+  color: rgba(24, 30, 34, 0.5);
+}
+
+input[type="checkbox"].switch + div span:nth-child( 1 ) {
+    margin-left: 27px;
+}
+
+input[type="checkbox"].switch + div span:nth-child( 2 ) {
+    margin-left: 110px;
+}
+
+input[type="checkbox"].switch:checked + div {
+	width: 163px;
+	background-position: 0 0;
+	background-color: #e3e3e3;
+}
+
+input[type="checkbox"].switch + div {
+	width: 163px;
+	height: 40px;
+}
+
+
+input[type="checkbox"].switch:checked + div {
+	background-color: #e3e3e3;
+}
+
+input[type="checkbox"].switch + div > .moveBtn {
+	float: left;
+	width: 86px; height: 38px;
+	border-radius: inherit;
+	background: #ffffff;
+	-webkit-transition-timing-function: cubic-bezier(1,0,0,1);
+	transition-timing-function: cubic-bezier(1,0,0,1);
+	-webkit-transition-duration: 0.4s;
+	transition-duration: 0.4s;
+	-webkit-transition-property: transform, background-color;
+	transition-property: transform, background-color;
+	pointer-events: none;
+	margin-top: 1px;
+	margin-left: 1px;
+  text-align: center;
+  padding-top: 11px;
+}
+
+input[type="checkbox"].switch:checked + div > .moveBtn {
+	-webkit-transform: translate3d(20px, 0, 0);
+	transform: translate3d(20px, 0, 0);
+  background-color: #673ab7;
+  color: white;
+}
+
+input[type="checkbox"].bigswitch.switch + div > .moveBtn {
+	width: 44px;
+	height: 44px;
+	margin-top: 1px;
+}
+
+
+input[type="checkbox"].switch:checked + div > .moveBtn {
+	-webkit-transform: translate3d(75px, 0, 0);
+	transform: translate3d(75px, 0, 0);
+}

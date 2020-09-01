@@ -1,0 +1,181 @@
+@import "src/styles/global.scss"
+
+.campaignOrange
+  color: $orangePrimary
+
+.campaignYellow
+  color: $yellowPrimary
+
+.campaignGreen
+  color: $greenPrimary
+
+.campaignRed
+  color: $redPrimary
+
+.campaignTitleRow
+  background: white
+
+.campaignTitle
+  font-family: Lato-Bold
+  font-size: rem(20)
+  color: $primaryColor
+  letter-spacing: 0
+  margin: 0 rem(23) 0 rem(50)
+
+.campaignNewIcon
+  height: rem(30)
+  width: rem(77)
+  margin: rem(28) rem(134) rem(28) 0
+
+  +media-breakpoint-down(lg)
+    margin: rem(28) rem(20) rem(28) 0
+
+.campaignTitleCategoriesRowWrapper
+  display: flex
+  flex: 1
+  //margin-right: rem(20)
+
+.campaignTitleCategoriesRow
+  font-family: Lato-Black
+  font-size: rem(14)
+  color: $primaryColor
+  width: 100%
+  text-align: center
+  flex-grow: 1
+
+.selected
+  background: #fbecec
+  box-shadow: 0 rem(1) rem(6) 0 rgba(124,124,124,0.20)
+
+.cursor-pointer 
+  cursor: pointer
+  &:hover 
+    box-shadow: 0 rem(1) rem(6) 0 rgba(124,124,124,0.20)
+
+
+
+.campaignTitleCategoriesItem
+  flex-grow: 1
+  justify-content: center
+  cursor: pointer
+
+.campaignTitleCategoriesHighlight
+  border-bottom: rem(3) solid currentColor
+  background: #F8F8F8
+
+.campaignSubTitlesRow
+  font-family: Lato-Bold
+  font-size: rem(12)
+  color: $purpleSecondary
+  padding: rem(17) 0
+  background: white
+  border-top: 1px solid #DEDEDE
+  border-bottom: 1px solid #DEDEDE
+  +media-breakpoint-down(lg)
+    font-size: rem(10)
+
+
+.campaignStatusTitlesRow
+  font-family: Lato-Medium
+  font-size: rem(12)
+  letter-spacing: 0
+
+.campaignStatusTitles
+  margin: rem(11) rem(35) rem(11) 0
+  white-space: pre-wrap
+
+.campaignStatusTitlesSquare
+  height: 1.1em
+  width: 1.1em
+  background-color: currentColor
+
+//Rows
+.campaignOverviewRowWrapper
+  overflow-y: scroll
+  overflow-x: hidden
+  &::-webkit-scrollbar
+    height: 0
+    width: 0
+  overflow: -moz-scrollbars-none
+  -ms-overflow-style: none
+
+.campaignOverviewRow
+  font-family: Lato-Heavy
+  font-size: rem(14)
+  color: $primaryColor
+  line-height: rem(22)
+  margin: 0 rem(21) rem(25) rem(21) !important
+  background: white
+  border-radius: rem(5)
+  border: solid 1px rgb(230, 230, 230)
+
+.campaignNewAssetIconWrapper
+  position: relative
+  right: 0
+  height: 0
+  width: 0
+
+.campaignNewAssetIcon
+  position: relative
+  height: rem(32)
+  width: rem(110)
+  top: rem(-16)
+  right: 6.4rem
+  font-family: ProximaNova-Bold
+  font-size: rem(10)
+  color: white
+  background: $redPrimary
+  border-radius: rem(5)
+  display: flex
+  justify-content: center
+  align-items: center
+
+.campaignNewAssetIconWrapper2
+  height: 0
+  margin: 0 rem(21) !important
+  //Same margin as overview row
+
+.campaignNewAssetIcon2
+  position: relative
+  display: inline-block
+  width: 0
+  height: 0
+  border-top: rem(3) solid transparent
+  border-left: rem(6) solid $redSecondary
+  border-bottom: rem(5.8) solid transparent
+  left: 100%
+  bottom: -.7rem
+
+.campaignOverviewRowLabels
+  margin: 0 rem(25) !important
+
+.campaignOverviewRowInner
+  padding: rem(25) 0
+
+.campaignOverviewRowLogo
+  width: rem(47)
+
+.campaignOverviewCol1
+  width: rem(18) !important
+  background-color: currentColor
+  border-radius: rem(5) 0 0 rem(5)
+
+.campaignOverviewCol2
+  width: 15% !important
+  text-align: center
+
+.campaignOverviewCol3
+  width: 24% !important
+  text-align: left
+
+.campaignOverviewCol4
+  width: 15% !important
+  text-align: center
+
+.campaignOverviewCol56
+  width: 14% !important
+  text-align: center
+
+.campaignOverviewCol7
+  width: 18% !important
+  text-align: center
